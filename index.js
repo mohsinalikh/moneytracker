@@ -16,6 +16,10 @@ app.use(
 );
 app.use(cors("*"));
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Moneytracker!");
+});
+
 app.use("/api/v1", authRoutes);
 app.use("/api/v1", assetsRoutes);
 app.use("/api/v1", transactionRoutes);
