@@ -1,0 +1,45 @@
+# Ignore node_modules directory for server
+/node_modules
+
+# Ignore build or distribution directories for server
+/server/build/
+/server/dist/
+
+# Ignore environment-specific files for server
+/server/.env
+
+# Ignore logs for server
+/server/logs/
+
+# Ignore database dump files (if any)
+/server/db-dumps/
+
+# Ignore node_modules directory for client
+/client/node_modules/
+
+# Ignore build or distribution directories for client
+/client/build/
+/client/dist/
+
+# Ignore environment-specific files for client
+/client/.env
+
+# Ignore logs for client
+/client/logs/
+
+# Ignore client-side dependencies in the root
+/node_modules/
+
+# Ignore environment-specific files in the root
+/.env
+
+# Ignore any log files or build artifacts in the root
+*.log
+/build/
+/dist/
+
+# Ignore macOS folder attributes
+.com.apple.Timemachine*
+
+# Ignore Visual Studio Code specific files
+.vscode/
