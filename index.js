@@ -11,7 +11,7 @@ const cors = require("cors");
 connectDB();
 app.use(
   express.json({
-    urlencoded: true,
+    urlencoded: true
   })
 );
 app.use(cors("*"));
